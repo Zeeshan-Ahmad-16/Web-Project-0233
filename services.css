@@ -1,0 +1,32 @@
+/* Services: gold override and card hover effect */
+:root {
+  --bs-warning: #D4A017;
+  --bs-warning-rgb: 212, 160, 23;
+}
+
+.btn-warning {
+  --bs-btn-bg: #D4A017;
+  --bs-btn-border-color: #D4A017;
+  --bs-btn-hover-bg: #b8860b;
+  --bs-btn-hover-border-color: #b8860b;
+  --bs-btn-active-bg: #b8860b;
+  --bs-btn-active-border-color: #b8860b;
+}
+
+.btn-outline-warning {
+  --bs-btn-color: #D4A017;
+  --bs-btn-border-color: #D4A017;
+  --bs-btn-hover-bg: #D4A017;
+  --bs-btn-hover-border-color: #D4A017;
+  --bs-btn-active-bg: #D4A017;
+  --bs-btn-active-border-color: #D4A017;
+}
+
+.service-card {
+  transition: transform .3s, box-shadow .3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, .7) !important;
+}
