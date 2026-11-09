@@ -1,0 +1,56 @@
+/* Gallery: gold override and tile animation */
+:root {
+  --bs-warning: #D4A017;
+  --bs-warning-rgb: 212, 160, 23;
+}
+
+.btn-warning {
+  --bs-btn-bg: #D4A017;
+  --bs-btn-border-color: #D4A017;
+  --bs-btn-hover-bg: #b8860b;
+  --bs-btn-hover-border-color: #b8860b;
+  --bs-btn-active-bg: #b8860b;
+  --bs-btn-active-border-color: #b8860b;
+}
+
+.btn-outline-warning {
+  --bs-btn-color: #D4A017;
+  --bs-btn-border-color: #D4A017;
+  --bs-btn-hover-bg: #D4A017;
+  --bs-btn-hover-border-color: #D4A017;
+  --bs-btn-active-bg: #D4A017;
+  --bs-btn-active-border-color: #D4A017;
+}
+
+.tile {
+  opacity: 0;
+  animation: slideIn .7s ease forwards;
+}
+
+.tile:nth-child(1) { animation-delay: .1s; }
+.tile:nth-child(2) { animation-delay: .25s; }
+.tile:nth-child(3) { animation-delay: .4s; }
+.tile:nth-child(4) { animation-delay: .55s; }
+.tile:nth-child(5) { animation-delay: .7s; }
+.tile:nth-child(6) { animation-delay: .85s; }
+.tile:nth-child(7) { animation-delay: 1s; }
+.tile:nth-child(8) { animation-delay: 1.15s; }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tile {
+    animation: none;
+    opacity: 1;
+  }
+}
