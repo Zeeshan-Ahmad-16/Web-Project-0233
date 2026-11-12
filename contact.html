@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Gold's Gym</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body class="bg-black text-light">
+  <header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-gradient contact-header">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><span class="text-warning">GOLD'S</span> GYM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+          <li class="nav-item"><a class="nav-link" href="join.html">Join</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active text-warning" aria-current="page" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3 text-warning fs-5" aria-hidden="true">&#9790;</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+    <section class="container py-5 border-bottom border-secondary">
+      <h1 class="display-3 fw-medium">Contact us</h1>
+      <p class="lead text-secondary mb-0">Questions, tours or membership support. We are ready to help.</p>
+    </section>
+    <div class="container py-5">
+      <div class="row g-5">
+        <section class="col-lg-6">
+          <p class="text-warning text-uppercase fw-semibold small mb-2">01 / Who we are</p>
+          <h2 class="fw-medium">About us</h2>
+          <p class="text-secondary">We are a training community built around expert coaching, considered spaces and steady progress.</p>
+          <div class="row row-cols-1 row-cols-sm-3 g-3 mt-2">
+            <article class="col">
+              <div class="card h-100 bg-dark border-secondary p-3">
+                <img src="images/trainer-1.jpg" class="card-img-top rounded object-fit-cover mb-2" height="130" alt="Hamza Ali, Head coach">
+                <h3 class="h6 mb-0">Hamza Ali</h3>
+                <p class="text-secondary small mb-2">Head coach</p>
+                <button type="button" class="bio-btn btn btn-outline-warning btn-sm">Show bio</button>
+                <p class="bio small text-secondary mt-2 mb-0" hidden>15 years coaching powerlifting and general strength.</p>
+              </div>
+            </article>
+            <article class="col">
+              <div class="card h-100 bg-dark border-secondary p-3">
+                <img src="images/trainer-2.jpg" class="card-img-top rounded object-fit-cover mb-2" height="130" alt="Sara Khan, Cardio coach">
+                <h3 class="h6 mb-0">Sara Khan</h3>
+                <p class="text-secondary small mb-2">Cardio coach</p>
+                <button type="button" class="bio-btn btn btn-outline-warning btn-sm">Show bio</button>
+                <p class="bio small text-secondary mt-2 mb-0" hidden>Former marathon runner who leads our HIIT classes.</p>
+              </div>
+            </article>
+            <article class="col">
+              <div class="card h-100 bg-dark border-secondary p-3">
+                <img src="images/trainer-3.jpg" class="card-img-top rounded object-fit-cover mb-2" height="130" alt="Ayesha Noor, Yoga instructor">
+                <h3 class="h6 mb-0">Ayesha Noor</h3>
+                <p class="text-secondary small mb-2">Yoga instructor</p>
+                <button type="button" class="bio-btn btn btn-outline-warning btn-sm">Show bio</button>
+                <p class="bio small text-secondary mt-2 mb-0" hidden>Certified yoga teacher focused on mobility and recovery.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="col-lg-6">
+          <div class="enquiry-card card bg-dark border-secondary p-4">
+            <p class="text-warning text-uppercase fw-semibold small mb-2">02 / Send a note</p>
+            <h2 class="fw-medium mb-3">Make an enquiry</h2>
+            <form action="#" method="post">
+              <label class="form-label small fw-semibold text-secondary" for="name">Name</label>
+              <input class="form-control mb-3" type="text" id="name" name="name" required>
+              <label class="form-label small fw-semibold text-secondary" for="email">Email</label>
+              <input class="form-control mb-3" type="email" id="email" name="email" required>
+              <label class="form-label small fw-semibold text-secondary" for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" maxlength="300" required></textarea>
+              <p class="text-end small text-secondary mb-3" id="counter">0 / 300</p>
+              <button class="btn btn-warning fw-bold w-100" type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+    <section class="container">
+      <div class="row g-3">
+        <div class="col-md-4"><div class="bg-dark border-start border-warning border-2 p-4"><h3 class="small text-secondary mb-2">01 / Address</h3><p class="fw-semibold mb-0">Main Boulevard, Lahore</p></div></div>
+        <div class="col-md-4"><div class="bg-dark border-start border-warning border-2 p-4"><h3 class="small text-secondary mb-2">02 / Phone</h3><p class="fw-semibold mb-0">+92 300 0000000</p></div></div>
+        <div class="col-md-4"><div class="bg-dark border-start border-warning border-2 p-4"><h3 class="small text-secondary mb-2">03 / Opening hours</h3><p class="fw-semibold mb-0">Mon-Sun, 05:00-23:00</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark mt-5 py-4">
+    <div class="container d-flex flex-wrap justify-content-between gap-2 small">
+      <p class="mb-0 text-secondary">&copy; 2026 Gold's Gym. All rights reserved.</p>
+      <p class="mb-0"><a class="link-secondary link-underline-opacity-0 me-3" href="https://instagram.com">Instagram</a><a class="link-secondary link-underline-opacity-0 me-3" href="https://facebook.com">Facebook</a><a class="link-secondary link-underline-opacity-0" href="https://youtube.com">YouTube</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
